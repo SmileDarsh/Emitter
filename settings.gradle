@@ -1,0 +1,4 @@
+include ':receiver'
+include ':middleman'
+include ':app'
+rootProject.name = "Emitter"
