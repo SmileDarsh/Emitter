@@ -16,6 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver  android:name=".UserBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.yello.middleman.User" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".UserService"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

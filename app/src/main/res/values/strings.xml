@@ -8,4 +8,5 @@
     <string name="website">Website:</string>
     <string name="address">Address:</string>
     <string name="company">Company:</string>
+    <string name="save_user">We receive data from middleMan app was successfully, thanks for using my project</string>
 </resources>
